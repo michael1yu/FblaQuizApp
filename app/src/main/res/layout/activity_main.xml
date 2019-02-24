@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginVertical="8dp"
+        android:layout_weight="1"
+        android:paddingHorizontal="48dp"
+        android:text="Topic 1"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:textSize="32sp" />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        android:paddingHorizontal="48dp"
+        android:text="Topic 2"
+        android:textAlignment="viewStart"
+        android:backgroundTint="@color/brown"
+        android:textColor="@color/white"
+        android:textSize="32sp" />
+
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        android:paddingHorizontal="48dp"
+        android:text="Topic 3"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/orange"
+        android:textSize="32sp" />
+
+
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        android:paddingHorizontal="48dp"
+        android:backgroundTint="@color/cyan"
+        android:text="Topic 4"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:textSize="32sp" />
+
+
+    <Button
+        android:id="@+id/btn_5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginBottom="8dp"
+        android:layout_weight="1"
+        android:paddingHorizontal="48dp"
+        android:backgroundTint="@color/purple"
+        android:text="Topic 5"
+        android:textAlignment="viewStart"
+        android:textColor="@color/white"
+        android:textSize="32sp" />
+
+
+</LinearLayout>
